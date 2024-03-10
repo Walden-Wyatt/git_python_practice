@@ -50,6 +50,21 @@ collection = db["sunday2"]
 
 
 
+# *** Imporatant Point ****** 
+
+  # 1. Weather you login to MongoDB or nor from the Browser it will not affect any of the Operation which we perform in our Applications using [MongoDB Methods ]
+    # Any Operations means operations such as [GET, POST, PUT, DELETE, etc ] ----> methods means [ collection.find(), collection.insert_one(), colection.update_one(), collection.delete_one(), etc ]
+    # do not waste your time checking MongoDB Website for some Issues which you get into your application CRUD Operations 
+     # Only 2 things which you have check or make changes is :- 
+      # 1. Provide which all IP Addresses can access the MongoDB Database 
+      # 2. Check and provide for Access to Database based on the Person Email address.
+
+
+
+
+
+# -------------------------------------------------
+
 
 
 app = Flask(__name__)
